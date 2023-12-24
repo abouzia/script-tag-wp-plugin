@@ -5,13 +5,13 @@ function abz_script_tag_display_in_footer()
 {
 
     $options = abz_script_tag_get_options();
-    $sctipt_location = $options['sctipt_location'];
-    $sctipt_content = $options['sctipt_content'];
+    $script_location = $options['script_location'];
+    $script_content = $options['script_content'];
 
-    if ($sctipt_location == 'footer') {
+    if ($script_location == 'footer') {
 
         echo '<script>';
-        echo $sctipt_content;
+        echo $script_content;
         echo '</script>';
     } else {
         return;
@@ -24,13 +24,13 @@ function abz_script_tag_display_in_head()
 {
 
     $options = abz_script_tag_get_options();
-    $sctipt_location = $options['sctipt_location'];
-    $sctipt_content = $options['sctipt_content'];
+    $script_location = $options['script_location'];
+    $script_content = $options['script_content'];
 
-    if ($sctipt_location == 'header') {
+    if ($script_location == 'head') {
 
         echo '<script>';
-        echo $sctipt_content;
+        echo $script_content;
         echo '</script>';
     } else {
         return;
