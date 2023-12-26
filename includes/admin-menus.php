@@ -19,7 +19,7 @@ function abz_script_tag_options_page()
 
     $options = abz_script_tag_get_options();
 ?>
-    <div class="wrap">
+    <div class="abz-config-page">
         <h1>ABZ Script Tag Options</h1>
         <form method="post" action="options.php">
             <?php
