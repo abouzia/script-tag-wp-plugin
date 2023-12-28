@@ -23,7 +23,7 @@ function abz_script_tag_options_page()
         <h1>ABZ Script Tag Options</h1>
         <form method="post" action="options.php">
             <?php
-            settings_fields('abz_script_tag_options');
+            settings_fields('abz_script_tag_settings');
             do_settings_sections('abz-script-tag');
             submit_button();
             ?>
